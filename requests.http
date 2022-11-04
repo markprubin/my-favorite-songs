@@ -1,0 +1,22 @@
+### Songs INDEX
+
+GET http://localhost:3000/songs.json
+
+
+### Songs SHOW
+
+GET http://localhost:3000/songs/1.json
+
+### Songs CREATE
+POST http://localhost:3000/songs.json
+Content-Type: application/json
+
+{
+"title": "My Feelings For You",
+"album": "My Feelings For You",
+"artist": "Avicii",
+"year": 2010
+}
+
+
+
