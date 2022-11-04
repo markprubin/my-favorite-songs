@@ -18,5 +18,10 @@ Content-Type: application/json
 "year": 2010
 }
 
+### Songs UPDATE
+PATCH http://localhost:3000/songs/5.json
+Content-Type: application/json
 
-
+{
+  "artist": "Dillon Francis, NGHTMRE"
+}
